@@ -1,0 +1,104 @@
+/*WHY US BG*/
+.why-us {
+    background: #0c0b09;
+    padding: 60px 0;
+}
+.why-us__container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.main__title h2 {
+    color: #aaaaaa;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 0.0625rem;
+    margin-bottom: 10px;
+    letter-spacing: 0.125rem;
+    font-family: 'Poppins', sans-serif;
+}
+.main__title h2::after {
+    content: '';
+    height: 1px;
+    width: 120px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 4px 10px;
+    align-self: center;
+    
+}
+.main__title p {
+    color: #cda45e;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 50px;
+}
+
+
+.why-us__card__container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    
+}
+.why-us__card {
+    background: #1A1814;
+    padding: 50px 30px;
+    
+}
+
+.why-us__card span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6875rem;
+    display: block;
+    font-weight: 700;
+    color: #cda45e;
+}
+.why-us__card h4 {
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+.why-us__card p {
+    max-width: 356px;
+    height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/*ANIMAÇÃO CARD*/
+
+.hover__card__contents {
+    color: #fff !important;
+}
+
+@media (max-width: 1400px) {
+    .why-us__container {
+        margin: 0 auto;
+        padding: 0 50px;
+        max-width: 1140px;
+    }
+}
+@media (max-width: 1000px) {
+    .why-us__card__container, .why-us__title {
+        padding: 0 70px;
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    .why-us__title {
+        padding: 0 10px;
+    }
+    .why-us__container {
+        padding: 0;
+    }
+    .why-us__card__container {
+        padding: 0;
+    }
+}
