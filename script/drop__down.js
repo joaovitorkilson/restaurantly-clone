@@ -16,7 +16,7 @@ export default function initDropDownMenu() {
         });
 
         function handleClick(event) { // vai ativar o menu
-            event.preventDefault()
+           
             // vamos fazer com que essa função adicione uma classe ativa nesse menu
                 this.classList.add('active');
 
