@@ -1,6 +1,6 @@
 // animação navbar
 
-export function validateSizeScroll() {
+export default function initValidateSizeScroll() {
     let contactBar = document.querySelector('.header__contact');
     let navBar = document.querySelector('.header__nav__bg');
     let sizeH1ToTop = document.querySelector('.header__title');
@@ -17,6 +17,5 @@ export function validateSizeScroll() {
                                 'background-color: rgba(12, 11, 9, 0.6);'
         
     }
-   
 }
 

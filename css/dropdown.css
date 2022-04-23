@@ -8,7 +8,8 @@
 
 }
 
-[data-dropdown]:hover .drop__down {
+[data-dropdown]:hover .drop__down,
+[data-dropdown].active .drop__down {
     display: flex;
     animation: show-up .3s forwards;
 }
