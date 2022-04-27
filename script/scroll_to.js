@@ -1,8 +1,9 @@
-export function initScrollSuave() {
+export default function initScrollSuave() {
     const linksInternos = document.querySelectorAll('#list a[href^="#"]')
-    console.log(linksInternos)
+    
 
     function scrollToSection(event) {
+        
         event.preventDefault();
         const href = event.currentTarget.getAttribute('href');
         const section = document.querySelector(href)
@@ -18,4 +19,3 @@ export function initScrollSuave() {
         link.addEventListener('click', scrollToSection);
     })
 }
-initScrollSuave()

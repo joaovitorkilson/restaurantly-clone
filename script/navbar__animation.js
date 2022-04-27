@@ -17,5 +17,6 @@ export default function initValidateSizeScroll() {
                                 'background-color: rgba(12, 11, 9, 0.6);'
         
     }
+    window.addEventListener('scroll', initValidateSizeScroll);
 }
 
