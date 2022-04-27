@@ -144,7 +144,8 @@
 @media (max-width: 770px) {
     .specials__container {
         max-width: 520px;
-        margin: 0 20px;
+        margin: 0 auto;
+        padding: 0 20px;
     }
     .specials__content__img {
         width: 450px;
@@ -159,6 +160,6 @@
     .specials__content__img {
         width: 300px;
         height: auto;
-        
+        margin: 0 auto;
     }
 }
